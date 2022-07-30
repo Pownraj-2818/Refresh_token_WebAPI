@@ -4,7 +4,7 @@ Learn How to implement refresh token in asp.net core web api project along with 
        
 What is Refresh Token?
 
-	A refresh token is a special token that lets the user to refresh the access token without asking the user to login again. A refresh token will be generated with expiry time until that the user can make request for getting a new access token with the refresh token.
+A refresh token is a special token that lets the user to refresh the access token without asking the user to login again. A refresh token will be generated with expiry time until that the user can make request for getting a new access token with the refresh token.
   
 Benefits of Refresh Token
 
