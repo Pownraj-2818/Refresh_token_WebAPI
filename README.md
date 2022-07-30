@@ -8,12 +8,13 @@ What is Refresh Token?
   
 Benefits of Refresh Token
 
-	The benefits of including refresh token in your project includes 
+The benefits of including refresh token in your project includes 
 
 Uninterrupted User Experience:
 
-	Usage of refresh token extends the session duration of user and prevents unnecessary reauthentication. For example, if an access token is only valid for 10 minutes, but the user is on the application for 15 minutes, the session may abruptly terminate. This is not ideal and leads to poor user experience. Usage of refresh token is a better approach, which enables new access tokens to be issued without a delay or additional effort
+Usage of refresh token extends the session duration of user and prevents unnecessary reauthentication. For example, if an access token is only valid for 10 minutes, but the user is on the application for 15 minutes, the session may abruptly terminate. This is not ideal and leads to poor user experience. Usage of refresh token is a better approach, which enables new access tokens to be issued without a delay or additional effort
+
 Improved Security:
 
-	The use of refresh token makes it feasible to short the lifespan of access tokens. Since the access tokens are used for accessing APIs, any legitimate user that possesses it is considered authenticated without any additional identification. The longer the access token remains valid, the higher the risk of it becoming stolen. Pairing long duration of refresh tokens and short duration of access tokens enhances security.
+The use of refresh token makes it feasible to short the lifespan of access tokens. Since the access tokens are used for accessing APIs, any legitimate user that possesses it is considered authenticated without any additional identification. The longer the access token remains valid, the higher the risk of it becoming stolen. Pairing long duration of refresh tokens and short duration of access tokens enhances security.
 
